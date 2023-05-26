@@ -1,0 +1,215 @@
+/* AD CSS*/
+.ad-background{
+    background-image: url('/images/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #175925;
+    border-radius: 1em;
+}
+.ad-description{
+    color: #ffff;
+    margin-top: 2.9rem;
+}
+.ad-description h1{
+    font-family: Oswald;
+    font-size: 150px;
+}
+.ad-description h2{
+    margin-top: -2rem;
+    font-family: Oswald;
+    font-size: 80px;
+}
+.ad-description h3{
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left: 68rem;
+    top: 32rem;
+    z-index: max;
+}
+.ad-description button{
+    background: none;
+    padding: 0;
+    margin: auto;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: none;
+    font-size: 20px;
+    font-family: Fredoka;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: solid 5px white;
+    background-color: white;
+    color: #498536;
+    border-radius: 0.5em;
+}
+.ad-description button:hover{
+    color: white;
+    border: solid 5px white;
+    background-color: #498536;
+    transition-duration: 0.4s;
+}
+.anim {
+    transform: scale(1.15);
+    transition: transform 0.8s;
+}
+/* ANIMATION FOR AD CSS*/
+.anim:hover{
+    transform: scale(1.20);
+    /* animation-name: item;
+    animation-duration: 2s;
+    animation-direction: alternate; 
+    animation-iteration-count: infinite; */
+}
+/* ABOUT US CSS */
+.about-desc h1{
+    color: #175925;
+    font-family: Fredoka;
+    font-size: 50px;
+}
+.about-desc p{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: Inter;
+}
+.about-desc img{
+    border-radius: 1em;
+}
+.about-desc a{
+    text-decoration: none;
+}
+.about-desc button{
+    background: none;
+    padding: 0;
+    margin: auto;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: none;
+    font-size: 16px;
+    font-family: Inter;
+    margin-top: 0rem;
+    padding: 0.7rem;
+    border: solid 5px white;
+    background-color: #175925;
+    color: #ffff;
+    border-radius: 1em;  
+}
+.about-desc button:hover{
+    background-color: none;
+    font-size: 16px;
+    font-family: Inter;
+    margin-top: 0rem;
+    padding: 0.7rem;
+    border: solid 5px white;
+    background-color: #498536;
+    color: #ffff;
+    border-radius: 1em;  
+}
+
+/* PRODUCT CSS*/
+.dpbackground{
+    background-color: #20632e;
+    background-image: url('/images/1.png');
+    background-size: cover;
+    border-radius: 1em;
+}
+.product-ad{
+    width: 100%;
+}
+.pdesc h1{
+    font-family: Inter;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.pdesc h3{
+    font-family: Inter;
+}
+.pdesc p{
+    font-family: Inter;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.pdesc p1{
+    font-family: Inter;
+    margin-bottom: 0rem;
+}
+.pdesc input{
+    background-color: #cdcfd1;
+    max-width: 3rem;
+}
+.pdesc button{
+    background: none;
+    padding: 0;
+    margin: auto;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: none;
+    font-size: 16px;
+    font-family: Inter;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: solid 5px white;
+    background-color: #175925;
+    color: #ffff;
+    border-radius: 1em;  
+}
+.pdesc button:hover{
+    background-color: none;
+    font-size: 16px;
+    font-family: Inter;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: solid 5px white;
+    background-color: #498536;
+    color: #ffff;
+    border-radius: 1em;  
+}
+.carousel-product {
+    width: 100%; /* full width */
+    height: 70%; /* height of carousel */
+    margin-right: 10px;
+}
+#carousel-product .flickity-page-dots {
+    bottom: -22px;
+}
+#carousel-product .flickity-page-dots .dot {
+    height: 4px;
+    width: 40px;
+    margin: 0;
+    border-radius: 0;
+}
+#carousel-product .flickity-button {
+    background: transparent;
+}
+
+/* PARTNER CSS*/
+.partner-carousel{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 1em;
+    background-image: url('/images/1.png');
+    background-color: #20632e;
+}
+.carousel-partner{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.carousel-partner img{
+    border-radius: 100%;
+}
+#carousel-partner .flickity-page-dots {
+    bottom: -22px;
+}
+#carousel-partner .flickity-page-dots .dot {
+    height: 0px;
+    width: 0px;
+    margin: 0;
+    border-radius: 0;
+}
+#carousel-partner .flickity-button {
+    color: transparent;
+    background: transparent;
+}

@@ -1,0 +1,135 @@
+/* NAVIGATION CSS*/
+.header{
+    padding: 0.5em;
+    background-color: #ffff;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+/* TESTING DROPDOWN */
+.menu-bar a{
+    text-decoration: none;
+    transition: all 1s ease-out;
+}
+
+.menu-bar a:hover {
+    color: #498536;
+}
+
+.select-menu {
+    color: #498536
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.menu-bar a:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: gray;
+}
+
+.menu-bar a:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar a:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+}
+
+/* FOOTER CSS*/
+.footer-bg{
+    background-color: #20632e;
+    background-size: cover;
+    background-image: url('/images/2.png');
+    margin-top: 1rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    background-repeat: no-repeat;
+}
+.footer-desc h1{
+    color: #ffff;
+    font-family: Inter;
+    font-size: 18px;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.footer-desc-text a{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #ffff;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+}
+.footer-desc p{
+    color: #ffff;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+form input {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    outline: none;
+    border: none;
+}
+
+.footer-desc button{
+    background: none;
+    padding: 0;
+    margin: auto;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: none;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: bold;
+    margin-top: 0%;
+    padding: 0.3rem;
+    border: solid 1px white;
+    background-color: white;
+    color: #498536;
+    border-radius: 1em;
+}
+.footer-desc button:hover{
+    color: white;
+    border: solid 1px white;
+    background-color: #498536;
+    transition-duration: 0.4s;
+}
+.social-icons a{
+    text-decoration: none;
+}
+.social-icons i {
+    font-size: 1.2rem;
+    margin: 0.2rem;
+    cursor: pointer;
+}
+
+/* OTHER CSS*/
+.title{
+    margin-top: 0;
+}
+.title h1{
+    color: #175925;
+    font-family: Fredoka;
+    font-size: 60px;
+}
